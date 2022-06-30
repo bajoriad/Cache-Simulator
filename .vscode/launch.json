@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        "p4spec.mc",
+        "4",
+        "2",
+        "1"
+      ],
+      "stopAtEntry": false,
+      "cwd": "/Users/divyanga/Desktop/EECS370Project4",
+      "environment": [],
+      "program": "/Users/divyanga/Desktop/EECS370Project4/a.out",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "externalConsole": true
+    }
+  ]
+}

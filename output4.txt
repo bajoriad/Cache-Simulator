@@ -1,0 +1,72 @@
+memory[0]=12648454
+memory[1]=8454167
+memory[2]=8454174
+memory[3]=25165824
+
+address = 0
+address_tag = 0
+address_set_index = 0
+$$$ transferring word [0-0] from the memory to the cache
+$$$ transferring word [0-0] from the cache to the processor
+address = 6
+address_tag = 6
+address_set_index = 0
+$$$ transferring word [0-0] from the cache to nowhere
+$$$ transferring word [6-6] from the memory to the cache
+$$$ transferring word [6-6] from the processor to the cache
+address = 1
+address_tag = 1
+address_set_index = 0
+$$$ transferring word [6-6] from the cache to the memory
+$$$ transferring word [1-1] from the memory to the cache
+$$$ transferring word [1-1] from the cache to the processor
+address = 23
+address_tag = 23
+address_set_index = 0
+$$$ transferring word [1-1] from the cache to nowhere
+$$$ transferring word [23-23] from the memory to the cache
+$$$ transferring word [23-23] from the cache to the processor
+address = 2
+address_tag = 2
+address_set_index = 0
+$$$ transferring word [23-23] from the cache to nowhere
+$$$ transferring word [2-2] from the memory to the cache
+$$$ transferring word [2-2] from the cache to the processor
+address = 30
+address_tag = 30
+address_set_index = 0
+$$$ transferring word [2-2] from the cache to nowhere
+$$$ transferring word [30-30] from the memory to the cache
+$$$ transferring word [30-30] from the cache to the processor
+address = 3
+address_tag = 3
+address_set_index = 0
+$$$ transferring word [30-30] from the cache to nowhere
+$$$ transferring word [3-3] from the memory to the cache
+$$$ transferring word [3-3] from the cache to the processor
+machine halted
+total of 4 instructions executed
+final state of machine:
+
+@@@
+state:
+	pc 4
+	memory:
+		mem[ 0 ] 12648454
+		mem[ 1 ] 8454167
+		mem[ 2 ] 8454174
+		mem[ 3 ] 25165824
+		mem[ 4 ] 0
+		mem[ 5 ] 0
+		mem[ 6 ] 0
+	registers:
+		reg[ 0 ] 0
+		reg[ 1 ] 0
+		reg[ 2 ] 0
+		reg[ 3 ] 0
+		reg[ 4 ] 0
+		reg[ 5 ] 0
+		reg[ 6 ] 0
+		reg[ 7 ] 0
+end state
+$$$ Main memory words accessed: 8

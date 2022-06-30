@@ -1,0 +1,12 @@
+-fix lru for a hit in read and miss read
+-fix lru for hit in write
+
+
+
+-if hit- set lru to 0
+        for all adrrses < initial- increment those that
+
+-if miss-set the new lru value to -1. Increment all existing lru values if valid ==1
+
+
+1 2 0 3
